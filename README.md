@@ -10,6 +10,7 @@ Sends messages via SvarUt
 Update docker.env with correct settings
 
 ```bash
+CALLBACK_DIRECTORY_PATH=test/directories/callback
 DONE_DIRECTORY_PATH=test/directories/done
 ERRORS_DIRECTORY_PATH=test/directories/errors
 QUEUE_DIRECTORY_PATH=test/directories/queue
