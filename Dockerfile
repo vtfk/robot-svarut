@@ -1,5 +1,5 @@
 # Setting the base to nodejs 8.9.4
-FROM node:8.13.0-alpine@sha256:383f12ee9a240151d62833be6b7387409a6867c9001328ea2dd5f10f090ac255
+FROM node:8.14.0-alpine@sha256:dfc36646eddf67cb2e18d9be1cdecb5ead4907b0593297bdc471f4e90d698d89
 
 #### Begin setup ####
 
