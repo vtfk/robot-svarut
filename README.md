@@ -1,8 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/robot-svarut.svg?branch=master)](https://travis-ci.org/telemark/robot-svarut)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/robot-svarut.svg)](https://greenkeeper.io/)
 
 # robot-svarut
+
 Sends messages via SvarUt
 
 ## Setup
@@ -39,5 +39,3 @@ This will start a container. Do the job. Stop the container and remove it.
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of robot-svarut](https://robots.kebabstudios.party/robot-svarut.png "Robohash image of robot-svarut")
