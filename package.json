@@ -52,7 +52,7 @@
   },
   "dependencies": {
     "axios": "0.18.0",
-    "jsonwebtoken": "8.4.0",
+    "jsonwebtoken": "8.5.0",
     "winston": "2.4.4",
     "winston-papertrail": "1.0.5"
   }
