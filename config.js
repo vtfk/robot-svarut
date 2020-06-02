@@ -1,5 +1,7 @@
 'use strict'
 
+require('dotenv').config()
+
 module.exports = {
   CALLBACK_DIRECTORY_PATH: process.env.CALLBACK_DIRECTORY_PATH || 'test/directories/callback',
   DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/directories/done',
