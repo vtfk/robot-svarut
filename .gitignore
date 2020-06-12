@@ -67,3 +67,6 @@ typings/
 
 # ignores json files in directories
 test/directories/*/*.json
+
+# ignoring different env files for endpoint checks
+.env.*
