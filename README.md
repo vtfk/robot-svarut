@@ -14,6 +14,7 @@ CALLBACK_DIRECTORY_PATH=/src/test/directories/callback
 DONE_DIRECTORY_PATH=/src/test/directories/done
 ERRORS_DIRECTORY_PATH=/src/test/directories/errors
 QUEUE_DIRECTORY_PATH=/src/test/directories/queue
+RUNNING_DIRECTORY_PATH=/src/test/directories/running
 RETRY_DIRECTORY_PATH=/src/test/directories/retries
 JWT_SECRET=Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go
 SVARUT_SERVICE_URL=https://service.svarut.no
