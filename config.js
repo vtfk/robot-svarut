@@ -7,6 +7,7 @@ module.exports = {
   DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/directories/done',
   ERRORS_DIRECTORY_PATH: process.env.ERRORS_DIRECTORY_PATH || 'test/directories/errors',
   QUEUE_DIRECTORY_PATH: process.env.QUEUE_DIRECTORY_PATH || 'test/directories/queue',
+  RUNNING_DIRECTORY_PATH: process.env.RUNNING_DIRECTORY_PATH || 'test/directories/running',
   RETRY_DIRECTORY_PATH: process.env.RETRY_DIRECTORY_PATH || 'test/directories/retries',
   JWT_SECRET: process.env.JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
   SVARUT_SERVICE_URL: process.env.SVARUT_SERVICE_URL || 'https://service.svarut.no',
