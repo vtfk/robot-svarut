@@ -65,8 +65,9 @@ typings/
 # dotenv environment variables file
 .env
 
-# ignores json files in directories
+# ignores json/test files in directories
 test/directories/*/*.json
+test/directories/*/*.test
 
 # ignoring different env files for endpoint checks
 .env.*
