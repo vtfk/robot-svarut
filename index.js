@@ -1,5 +1,6 @@
 'use strict'
 
+const { logger } = require('@vtfk/logger')
 const checkRetries = require('./lib/steps/check-retries')
 const getNextJobFromQueue = require('./lib/steps/get-next-job-from-queue')
 const moveToRunning = require('./lib/steps/move-job-to-running')
@@ -12,7 +13,6 @@ const saveToErrors = require('./lib/steps/save-to-errors')
 const saveToRetries = require('./lib/steps/save-to-retries')
 const saveCallbackData = require('./lib/steps/save-callback-data')
 const removeFromRunning = require('./lib/steps/remove-from-running')
-const logger = require('./lib/logger')
 
 logger('info', ['index', 'start'])
 
