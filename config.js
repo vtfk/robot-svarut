@@ -11,9 +11,7 @@ module.exports = {
   RETRY_DIRECTORY_PATH: process.env.RETRY_DIRECTORY_PATH || 'test/directories/retries',
   JWT_SECRET: process.env.JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
   SVARUT_SERVICE_URL: process.env.SVARUT_SERVICE_URL || 'https://service.svarut.no',
-  PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'status-robot',
-  PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
-  PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345,
+  EMANUEL_TEAMS_WEBHOOK: process.env.EMANUEL_TEAMS_WEBHOOK,
   OVERRIDE_RECIPIENTS: (process.env.OVERRIDE_RECIPIENTS && process.env.OVERRIDE_RECIPIENTS.toLowerCase() === 'true') || false,
   OVERRIDE_RECIPIENTS_ADDRESSES: (process.env.OVERRIDE_RECIPIENTS_ADDRESSES && process.env.OVERRIDE_RECIPIENTS_ADDRESSES.split(',')) || [],
   OVERRIDE_RECIPIENTS_OBJECT: {

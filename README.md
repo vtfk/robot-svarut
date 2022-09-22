@@ -17,9 +17,10 @@ RUNNING_DIRECTORY_PATH=/src/test/directories/running
 RETRY_DIRECTORY_PATH=/src/test/directories/retries
 JWT_SECRET=Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go
 SVARUT_SERVICE_URL=https://service.svarut.no
-PAPERTRAIL_HOSTNAME=robot-svarut
-PAPERTRAIL_HOST=logs.papertrailapp.com
-PAPERTRAIL_PORT=12345
+PAPERTRAIL_HOST=https://logs.collector.solarwinds.com/v1/log
+PAPERTRAIL_TOKEN=secret token
+NODE_ENV=production
+EMANUEL_TEAMS_WEBHOOK=webhook-url
 OVERRIDE_RECIPIENTS=false
 OVERRIDE_RECIPIENTS_ADDRESSES=personalIdNumber,personalIdNumber
 ```
