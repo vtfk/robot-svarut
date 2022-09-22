@@ -1,0 +1,34 @@
+{
+  "title": "Ballefrans",
+  "documents": [
+    {
+      "data": "base64",
+      "fileName": "Bekreftelse til elev - yrkesfaglig fordypning - YFF.pdf",
+      "mimeType": "application/pdf"
+    }
+  ],
+  "shipment": {
+    "emittingSystem": "MinElev",
+    "postingCode": "1161",
+    "level4login": false,
+    "encrypted": false,
+    "digitalDelivery": false
+  },
+  "recipients": [
+    {
+      "type": "privatPerson",
+      "name": "Rune Moskvil Lyngås",
+      "address1": "Snøklokkeveien 9",
+      "address2": "",
+      "address3": "",
+      "postalCode": "3086",
+      "postalCity": "Holmestrand",
+      "personalId": "08058532739"
+    }
+  ],
+  "printConfiguration": {
+    "letterType": "APOST",
+    "colorPrint": true,
+    "duplex": false
+  }
+}
